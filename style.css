@@ -2,3 +2,25 @@
     margin: 0;
     padding: 0;
 }
+.center{
+    display: flex;
+    justify-content: center;
+}
+.collection{
+    display: grid;
+    grid-gap: 2vw;
+    justify-content: center;
+    grid-template-columns: repeat(3, 0fr);
+}
+.collection-item{
+    display: flex;
+    justify-content: center;
+    background: red;
+    width: 20vw;
+    height: 20vw;
+}
+.item-title{
+    margin-top: 2vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.75vw;
+}
